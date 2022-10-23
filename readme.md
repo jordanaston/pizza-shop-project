@@ -1,7 +1,20 @@
-<!DOCTYPE html>
+## Mock up pizza shop website built from scratch
 
-<html>
-    <head>
+HTML
+CSS
+Wireframes
+Git
+Markdown
+
+## HTML
+
+Started building the foundations of the landing page. Imported all images. 
+Imported the desired font link. Started the navigation bar using lists.
+
+
+```html
+
+<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Jonny Boy's Pizza</title>
@@ -27,17 +40,40 @@
             </nav-bar>      
       </header>
 
+```
+
+
+## CSS
+
+Chose the background colour for the body and the header. 
+Began styling the header's font, font size, colour and margin. 
+
+```css
+
+body {
+    background-color: #F2EFDE;
+    margin: 0;
+}
+
+header {
+    background-color: #F2EFDE;
+    margin: 0;
+    
+}
+
+header h1 {
+    color: #5F8661;
+    margin-left: 15px;
+    font-family: 'Luckiest Guy'; 
+    font-size: 28px;
+}
+
+
+```
 
 
 
-      <main-section>
-        <p></p>
-      </main-section>
-      
-        
-        
-    </body>
-    <footer>
+## Wireframes
 
-    </footer>
-</html>
+
+

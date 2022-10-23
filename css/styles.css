@@ -1,0 +1,19 @@
+body {
+    background-color: #F2EFDE;
+    margin: 0;
+}
+
+header {
+    background-color: #F2EFDE;
+    margin: 0;
+    
+}
+
+header h1 {
+    color: #5F8661;
+    margin-left: 15px;
+    font-family: 'Luckiest Guy'; 
+    font-size: 28px;
+}
+
+
