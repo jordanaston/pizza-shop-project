@@ -1,19 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #F2EFDE;
     margin: 0;
 }
 
-header {
+.top-header {
     background-color: #F2EFDE;
     margin: 0;
-    
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid#5F8661; */
 }
 
-header h1 {
+h1 {
     color: #5F8661;
     margin-left: 15px;
     font-family: 'Luckiest Guy'; 
-    font-size: 28px;
+    font-size: 38px;
+    margin-top: 22px;
 }
 
+.burger {
+    width: 60px; 
+    margin-right: 20px;
+    margin-top: 10px;
+    filter: invert(55%) sepia(22%) saturate(571%) hue-rotate(73deg) brightness(84%) contrast(85%);
+}
 
+.pizza-logo-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    /* border: 2px solid#5F8661; */
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* border: 2px solid#5F8661; */
+    list-style: none;
+    font-family: 'Luckiest Guy'; 
+    font-size: 25px;
+    color: #5F8661;
+    padding-bottom: 15px;
+    text-decoration: none;
+    box-shadow: 0 8px 8px -4px #707070;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid#5F8661; */
+    padding-top: 40px;
+    padding-left: 43px;
+    padding-right: 43px;
+    font-family: 'Lusitana';font-size: 19px;
+}
+
+.main-section p {
+   color: #323232;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid#5F8661; */
+    height: 88px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    filter: invert(55%) sepia(22%) saturate(571%) hue-rotate(73deg) brightness(84%) contrast(85%);
+}
+
+.ph-number {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lusitana';font-size: 19px;
+    color: #323232;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.email-address {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lusitana';font-size: 19px;
+    color: #323232;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+hr {
+    height: 1px;
+    width: 300px;
+    background-color: #323232;
+    border: none;
+    margin: auto;
+}
