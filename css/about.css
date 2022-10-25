@@ -22,7 +22,7 @@ h1 {
     margin-left: 15px;
     font-family: 'Luckiest Guy'; 
     font-size: 38px;
-    margin-top: 22px; 
+    margin-top: 22px;
 }
 
 .burger {
@@ -53,6 +53,8 @@ h1 {
     box-shadow: 0 8px 8px -4px #707070;
 }
 
+
+
 .main-section {
     display: flex;
     justify-content: center;
@@ -63,7 +65,7 @@ h1 {
     padding-top: 40px;
     padding-left: 43px;
     padding-right: 43px;
-    font-family: 'Lusitana';font-size: 19px;  
+    font-family: 'Lusitana';font-size: 19px;
 }
 
 .main-section p {
@@ -130,8 +132,13 @@ hr {
     color: #E74423;
 }
 
+#about-color {
+    color: #E74423;
+    text-decoration: underline;
+}
+
 .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%
   }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bookings</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Luckiest Guy' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet'>
+        <link rel="stylesheet" href="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/css/bookings.css">
+        <link rel="icon" href="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/pizza logo tab icon.jpeg">
+    </head>
+    <body>
+
+    <header>
+      <div class="top-header">
+        <a href="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/index.html" style="color: #5F8661; text-decoration: none;"><h1>Johnny Boy's</h1></a>
+        <img src="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/burger icon.svg.png" alt="burger icon" class="burger"> 
+      </div>
+        
+      <div class="pizza-logo-section">
+        <img src="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/pizza logo.jpeg" alt="pizza logo" width="250px"> 
+      </div>
+
+      <div class="nav-bar">
+        <ul>
+          <a href="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/pages/about.html" style="color: #5F8661; text-decoration: none;"><li>About</li></a>
+          <a href="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/pages/menu.html" style="color: #5F8661; text-decoration: none;"><li>Menu</li></a>
+          <li id="bookings-color">Bookings</li>
+        </ul>
+      <div>      
+    </header>
+
+    <main-section>
+      <div class="main-section">
+        <form action="#" method="post">
+          <div class="everything">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="visitor_name" required>
+          </div>
+          <div class="everything">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="visitor_email" required>
+          </div>
+          <div class="everything">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="visitor_phone" required>
+          </div>
+          <div class="everything inlined">
+            <label for="adult">Adults</label>
+            <input type="number" id="adult" name="total_adults" min="1" required>
+          </div>
+          <div class="everything inlined">
+            <label for="child">Children</label>
+            <input type="number" id="child" name="total_children" min="0" required>
+          </div>
+          <div class="everything inlined">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="everything inlined">
+            <label for="time">Time</label>
+            <input type="time" id="Time" name="Time" required>
+          </div>
+          <div class="everything">
+            <label for="message">Allergies?</label>
+            <textarea id="message" name="visitor_message" placeholder="Tell us about your allergies and we will make sure we are prepared." required></textarea>
+          </div>
+            <button type="submit">Book Reservation</button>
+        </form>
+      </div>  
+    </main-section>
+      
+    </body>
+
+    <footer class="sticky">
+      <div class="footer">
+        <a href="https://www.facebook.com" target="_blank"><img src="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/facebook icon.png" alt="facebook icon"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/instagram icon.png" alt="instagram icon"></a>
+        <img src="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/phone icon.png" alt="phone icon">
+        <img src="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/mail icon.png" alt="mail icon">
+      </div>
+    </footer>
+</html>
