@@ -234,9 +234,7 @@ hr {
 
 Wirframe done in Figma: [Figma Wireframe](https://www.figma.com/file/d16rqcQgflkYktX3vytpci/pizza-shop-project?node-id=0%3A1)
 
-![Wireframe Screeshot](/Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/wireframe-screenshot.png "Wireframe Screenshot")
-
-![Mobile View Browser Screenshot](/Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/mobile-view-browser-screenshot.png "Mobile View Browser Screenshot")
+![wireframe Screenshot](images/wireframescreenshot.pngraw=true "Wireframe Screenshot")
 
 
 ## References 
