@@ -133,32 +133,6 @@ Used flex box to arrange all headers, main section and footer. Styled header tex
 ## CSS
 
 ```css
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-color: #F2EFDE;
-    margin: 0;
-}
-
-.top-header {
-    background-color: #F2EFDE;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    /* border: 2px solid#5F8661; */
-}
-
-h1 {
-    color: #5F8661;
-    margin-left: 15px;
-    font-family: 'Luckiest Guy'; 
-    font-size: 38px;
-    margin-top: 22px;
-}
 
 .burger {
     width: 60px; 
@@ -256,8 +230,35 @@ hr {
 }
 ```
 
-
 ## Wireframes
+
+Wirframe done in Figma: [Figma Wireframe](https://www.figma.com/file/d16rqcQgflkYktX3vytpci/pizza-shop-project?node-id=0%3A1)
+
+![Wireframe Screeshot](images/wireframe screenshot.png "Wireframe Screenshot")
+
+![Mobile View Browser Screenshot](images/mobile view browser screenshot.png "Mobile View Browser Screenshot")
+
+
+## References 
+
+Pizza Logo - https://www.istockphoto.com/vector/funny-pizza-sign-in-retro-style-gm1128704035-297913246?phrase=pizza%20logo
+
+Burger Icon - https://www.google.com/search?q=burger+menu+icon+transparent&sxsrf=ALiCzsaiSbJsYGqPkdqBRizp_xBbHxvzmQ:1666516233548&source=lnms&tbm=isch&sa=X&ved=2ahUKEwihsvPggPb6AhWN9jgGHYIwALMQ_AUoAXoECAIQAw&biw=1888&bih=918&dpr=1#imgrc=vH-BsLYODxqF2M
+
+Facebook Icon - https://www.google.com/search?q=FACEBOOK%20ICON%20transparent&tbm=isch&tbs=ic:trans&hl=en&sa=X&ved=0CAMQpwVqFwoTCMDWzsKS9voCFQAAAAAdAAAAABAH&biw=1873&bih=918#imgrc=5ma9tpVh13AYwM
+
+Instagram Icon - https://www.google.com/search?q=instagram+icon+transparent&sxsrf=ALiCzsa_ULI-htx91XH9wg5Zbo6pAPNW_w:1666518184414&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_6JKDiPb6AhXywzgGHdJtDX0Q_AUoAXoECAEQAw&biw=1888&bih=861&dpr=1#imgrc=INloaRYbFfhKUM
+
+Phone Icon - https://www.flaticon.com/free-icon/phone-call_455705
+
+Mail Icon - https://toppng.com/show_download/163054/icon-mail-png-transparent-background-mail-logo/large
+
+Landing Page Text - https://johnnyboys.com.au/
+
+About Text - https://johnnyboys.com.au/
+
+Menu Text - https://static1.squarespace.com/static/5f7a63f936dbad5c270ad7b3/t/605426cab59078239f691e3b/1616127692448/PS001_Window+Menu_Web_V1.pdf
+
 
 
 

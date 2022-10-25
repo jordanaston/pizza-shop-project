@@ -55,15 +55,13 @@ h1 {
 
 .main-section {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
     text-align: center;
     /* border: 2px solid#5F8661; */
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 43px;
     padding-right: 43px;
-    font-family: 'Lusitana';font-size: 19px;  
+    font-family: 'Lusitana';font-size: 15px; 
 
 }
 
@@ -112,6 +110,7 @@ footer img {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
+    margin-bottom: 15px;
 }
 
 hr {
@@ -132,8 +131,6 @@ hr {
     color: #E74423;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+#top-hr {
+    margin-bottom: 30px;
+}

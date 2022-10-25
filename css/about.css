@@ -65,7 +65,7 @@ h1 {
     padding-top: 40px;
     padding-left: 43px;
     padding-right: 43px;
-    font-family: 'Lusitana';font-size: 19px;
+    font-family: 'Lusitana';font-size: 14px;
 }
 
 .main-section p {
@@ -142,4 +142,9 @@ hr {
     position: fixed;
     top: 0;
     width: 100%
+  }
+
+  #top-hr{
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
