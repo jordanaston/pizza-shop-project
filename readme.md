@@ -232,9 +232,9 @@ hr {
 
 ## Wireframes
 
-Wirframe done in Figma: [Figma Wireframe](https://www.figma.com/file/d16rqcQgflkYktX3vytpci/pizza-shop-project?node-id=0%3A1)
+Wireframe done in Figma: [Figma Wireframe](https://www.figma.com/file/d16rqcQgflkYktX3vytpci/pizza-shop-project?node-id=0%3A1)
 
-<img src="/Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/wireframescreenshot.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;"/>
+![Alt text](https://Users/jordanaston/Documents/practice-projects/pizza-shop-project/images/wireframescreenshot.png "Wireframe Screenshot")
 
 
 ## References 
